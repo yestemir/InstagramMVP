@@ -28,7 +28,7 @@ class AddPresenter: AddPresenterProtocol {
     func addNewPost(image: UIImage?) {
         guard image != nil else { return }
         // adds at the end (
-        let post = Post(profileImage: "avatar1", name: "newPost", likes: 1, image: "image", caption: "asd", isLiked: false)
+        let post = Post(profileImage: "avatar1", name: "newPost", likes: 1, image: "image", caption: "new post added", isLiked: false)
         NewPost.singleton.post = post
     }
    
